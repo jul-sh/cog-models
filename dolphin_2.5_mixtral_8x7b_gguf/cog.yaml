@@ -1,4 +1,4 @@
-image: "r8.im/kcaverly/dolphin-2.5-mixtral-8x7b-gguf"
+image: "r8.im/jul-sh/dolphin-2.5-mixtral-8x7b-gguf"
 build:
   gpu: true
   cuda: "11.7"
