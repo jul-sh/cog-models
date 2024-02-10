@@ -9,7 +9,7 @@ class Predictor(BasePredictor):
     def setup(self) -> None:
         """Load the model into memory to make running multiple predictions efficient"""
         self.model = Llama(
-            model_path="./nous-hermes-2-mixtral-8x7b-dpo.Q5_K_M.gguf",
+            model_path="./miqu-1-70b.q5_K_M.gguf",
             n_gpu_layers=-1,
             n_ctx=16000,
             n_threads=1,
